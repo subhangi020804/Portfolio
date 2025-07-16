@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="navbar-title">SUBHANGI PANDA</h1>
+    <ul class="navbar-menu">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2 class="hero-heading">Hi, I'm Subhangi Panda</h2>
+    <p class="hero-subtitle">Software Engineer | Web Developer</p>
+    <p class="hero-desc">Software Engineer Focused on Scalable Web Solutions</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I'm an aspiring web developer with experience in HTML, CSS, and JavaScript, focused on building clean and responsive user interfaces.
+      My journey began with Java, where I built a strong programming foundation, and I'm now diving into Python and the fascinating world of AI.
+    </p>
+    <p class="section-text">
+      I enjoy turning ideas into interactive projects and constantly exploring new technologies to level up my skills.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section dark-section">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3 class="project-title">A Basic Calculator</h3>
+        <p class="project-desc">Developed a fully functional calculator using core web technologies. This project performs fundamental arithmetic operations such as addition, subtraction, multiplication, and division. It features a clean and responsive user interface styled with CSS, and all logic is handled with vanilla JavaScript. The project reinforces DOM manipulation, event handling, and UI/UX design best practices.</p>
+      </div>
+      <div class="project-card">
+        <h3 class="project-title">E-Commerce Website</h3>
+        <p class="project-desc">Designed and developed a functional e-commerce website showcasing product listings, dynamic cart functionality, and a responsive user interface. The project demonstrates strong front-end skills by combining semantic HTML structure, modern CSS styling, and interactive JavaScript features.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+<section id="skills" class="section">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Artificial Intelligence (Learning)</div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" placeholder="Your Name" class="input" required />
+      <input type="email" placeholder="Your Email" class="input" required />
+      <textarea placeholder="Your Message" class="input textarea" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMessage" class="form-message">Thanks! I’ll get back to you soon.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text">&copy; 2025 [Subhangi Panda]. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const message = document.getElementById('formMessage');
+      message.style.display = 'block';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
