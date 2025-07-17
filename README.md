@@ -11,8 +11,6 @@ Social links:
 Github: https://github.com/subhangi020804
 Linkedin: www.linkedin.com/in/subhangipanda
 
-
-
 🛠️ Technologies Used:
 HTML5
 CSS3.
@@ -21,3 +19,18 @@ JavaScript.
 This project serves as a way to present my development journey, share my work, and practice building clean, maintainable code without using frameworks.
 
 
+## 📁 Folder Structure
+
+portfolio/
+├── index.html
+├── style.css
+└── script.js
+
+
+---
+
+👩‍💻 Author
+
+Subhangi Panda
+Aspiring Software Engineer & Web Developer
+GitHub | LinkedIn
