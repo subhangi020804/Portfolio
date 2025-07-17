@@ -8,15 +8,15 @@ Responsive design with a dark theme
 Project showcase cards
 Contact form with basic JS interaction
 Social links:
-Github:
-Linkedin:
+Github: https://github.com/subhangi020804
+Linkedin: www.linkedin.com/in/subhangipanda
 
 
 
 🛠️ Technologies Used:
 HTML5
-CSS3
-JavaScript (Vanilla)
+CSS3.
+JavaScript.
 🎯 Purpose:
 This project serves as a way to present my development journey, share my work, and practice building clean, maintainable code without using frameworks.
 
